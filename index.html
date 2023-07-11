@@ -1,98 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toboolist</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toboolist</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <header>
+    <img id="logo" src="img/Logo.png" alt="logo">
+    <span id="testo-logo">Toboolist</span>
+        
+    </header>
 
-  <header>
-    <img id="img" src="img/Logo.png" alt="">
-    <span id="text-logo">Toboolist</span>
-    
-  </header>
+    <main>
+        <div class="container">
+            <div class="top">
+                <button class="btn btn-pieno">Add task</button>
+                <button class="btn btn-vuoto">Add section</button>
+            </div>
 
-  <main id="contenitore">
-    <section id="all-button">
-        <button class="button blue">Add Task</button>
-        <button class="button 2">Add Section</button>
-    </section>
+            <div class="tasks">
+                <ul>
+                    <li> 
+                        <h3>New Task</h3>
+                        <ul>
+                            <li>
+                                <span class="cerchio pos"></span>  
+                                Quarterly Newsletter
+                                <span class="tag tag-type-blu">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
 
-    <section class="section">
-        <div class="first-row">
-            <span class="arrow">&#10148;</span> 
-            New Task
-        </div>
-        <div class="row">
-            <span class="emoticon">&#x2713;</span> 
-            Quarterly Newsletter
-            <span class="editorial blue">Editorial</span>
-        </div>
-    </section>
-     
-    <!-- seconda section  -->
-    <section class="section">
-        <div class="first-row">
-            <span class="arrow">&#10148;</span> 
-            Today
-        </div>
-        
-        <div class="row">
-            <span class="emoticon">&#x2713;</span> 
-            Recruiting blog post
-            <span class="editorial blue">Editorial</span>
-        </div>
-        
-        <div class="row">
-            <span class="emoticon">&#x2713;</span> 
-            Mobile app launch
-            <span class="editorial blue">Q1 Goals</span>
-        </div>
-        
-        <div class="row">
-            <span class="emoticon">&#215;</span> 
-            Interview John H.
-            <span class="editorial grey">Recruiting</span>
-        </div>
-        
-        <div class="row">
-            <span class="emoticon">&#x2713;</span> 
-            Summit update to mobile storefronts
-            <span class="editorial orange">Mobile</span>
-        </div>
-    </section>
+                    <li>
+                        <h3>Today</h3>
+                        <ul>
+                            <li>
+                                <span class="cerchio pos"></span> 
+                                Recruiting blog post
+                                <span class="tag tag-type-blu">Editorial</span>
+                            </li>
+                            <li>
+                                <span class="cerchio pos"></span> 
+                                Mobile app launch
+                                <span class="tag tag-type-viola">Q1 Goals</span>
+                            </li>
+                            <li>
+                                <span class="cerchio neg"></span> 
+                                Interview Jhon H.
+                                <span class="tag tag-type-green">Recruiting</span>
+                            </li>
+                            <li>
+                                <span class="cerchio pos"></span> 
+                                Summit update to mobile strorefronts
+                                <span class="tag tag-type-orange">Mobile</span>
+                            </li>
+                        </ul>
+                        
+                    </li>
 
-     <!-- terza section  -->
-    <section class="section">
-        <div class="first-row">
-            <span class="arrow">&#10148;</span> 
-            Upcoming
+                    <li> 
+                        <h3>Upcoming</h3>
+                        <ul>
+                            <li>
+                                <span class="cerchio neg"></span> 
+                                Schedule meeting with Alex
+                            </li>
+                            <li>
+                                <span class="cerchio pos"></span> 
+                                Homepage refresh
+                                <span class="tag tag-type-fucsia">Website</span>
+                            </li>
+                            <li>
+                                <span class="cerchio pos"></span> 
+                                Onboard new Sales team members
+                                <span class="tag tag-type-lime">Sales</span>
+                            </li>
+                            <li>
+                                <span class="cerchio pos"></span> 
+                                Review editorial calendar
+                                <span class="tag tag-type-blu">Editorial</span>
+                            </li>
+                        </ul>                   
+                    </li>
+                </ul>
+            </div>
         </div>
-        
-        <div class="row">
-            <span class="emoticon">&#215;</span> 
-            Schedule meeting with Alex
-        </div>
-        
-        <div class="row">
-            <span class="emoticon">&#x2713;</span> 
-            Homepage refresh
-            <span class="editorial grey">Website</span>
-        </div>
-        
-        <div class="row">
-            <span class="emoticon">&#215;</span> 
-            Onboard new Sales team members
-            <span class="editorial orange">Sales</span>
-        </div>
-        
-        <div class="row">
-            <span class="emoticon">&#x2713;</span>
-            Review editorial calendar
-            <span class="editorial blue">Editorial</span>
-        </div>
-    </section>
-  </main>
+    </main>   
 </body>
 </html>
